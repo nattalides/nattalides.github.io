@@ -1820,6 +1820,10 @@ footer .newsletter_form .form-control {
   font-weight: 500;
   color: #ffffff;
 }
+footer .footer_logo {
+  margin-top: -50px;
+  margin-bottom: -30px;
+}
 
 .copyright_footer {
   background-color: #080113;
@@ -2020,7 +2024,7 @@ Cover
 }
 .cover_slider .cover_item .slider_content .slider-content-inner .cover-title {
   margin-top: 25px;
-  margin-bottom: 0;
+  margin-bottom: 20px;
   opacity: 0;
   font-weight: 500;
   color: #ffffff;
@@ -2043,9 +2047,10 @@ Cover
   transition: all 0.4s 600ms ease-in-out;
 }
 .cover_slider .cover_item .slider_content .slider-content-inner .cover-date {
-  font-size: 18px;
+  font-size: 20px;
   color: #ffffff;
-  margin-bottom: 25px;
+  margin-top: 25px;
+  margin-bottom: 45px;
   text-transform: uppercase;
   opacity: 0;
   -webkit-transform: translateY(20px);
