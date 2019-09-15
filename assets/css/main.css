@@ -173,7 +173,6 @@ ul.nosyely_list {
 .brand_item img {
   display: block;
   max-width: 200px;
-  margin: 0 auto;
 }
 .brand_item:hover {
   opacity: 1;
@@ -2700,11 +2699,28 @@ Cover
   padding: 3px 0;
   display: inline-block;
 }
+.table.event_calendar thead.past_event_title {
+  background-color: #f26710;
+  color: #ffffff;
+  border: 0;
+}
+.table.event_calendar thead.past_event_title th {
+  vertical-align: middle;
+  text-align: left;
+  border: 0;
+  font-size: 22px;
+  text-transform: capitalize;
+  font-weight: 600;
+}
+.table.event_calendar thead.past_event_title th i {
+  font-size: 36px;
+  float: left;
+}
 .table.event_calendar tbody {
   background-color: #f0f2f6;
 }
 .table.event_calendar tbody td, .table.event_calendar tbody th {
-  padding: 20px 25px;
+  padding: 20px 15px;
   border: 0;
   vertical-align: middle;
   text-align: center;
@@ -2734,6 +2750,19 @@ Cover
   line-height: 24px;
   font-weight: 500;
   margin-bottom: 0;
+}
+.table.event_calendar tbody td.past_event_title span {
+  margin-right: 5px;
+  font-weight: 600;
+  font-size: 16px;
+}
+.table.event_calendar tbody td.past_event_title i {
+  font-size: 14px;
+  padding-left: 3px;
+  vertical-align: middle;
+}
+.table.event_calendar tbody td.img img {
+  width: 100px;
 }
 .table.event_calendar tbody td.buy_link a {
   text-transform: capitalize;
