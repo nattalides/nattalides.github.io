@@ -2761,7 +2761,7 @@ Cover
   padding-left: 3px;
   vertical-align: middle;
 }
-.table.event_calendar tbody td.img img {
+.table.event_calendar tbody td.past_event_img img {
   width: 100px;
 }
 .table.event_calendar tbody td.buy_link a {
