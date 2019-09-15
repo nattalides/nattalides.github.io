@@ -1,1 +1,6 @@
-Nothing you could do
+color: #f50136 to #f26710
+
+text color: #838383 to #7f8082
+
+PPT RGB: 74 102 172
+PPT RGB: 242 103 16
