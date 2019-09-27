@@ -3,4 +3,6 @@
 .RData
 .Ruserdata
 archive
-
+other_img
+other_workshops
+presentations/*.pptx
